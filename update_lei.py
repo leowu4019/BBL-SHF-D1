@@ -9,8 +9,6 @@ Original file is located at
 
 print("Starting LEI Update....")
 
-!pip install fredapi
-
 import pandas as pd
 from fredapi import Fred
 import os
