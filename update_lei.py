@@ -46,7 +46,7 @@ combined_df = fred_dfs[0]
 for next_df in fred_dfs[1:]:
     combined_df = pd.merge(combined_df, next_df, on='yyyy_mm', how='inner')
 
-filename = 'manual variables - Sheet1.csv'
+filename = 'manual_variables.csv'
 manual_df = pd.read_csv(filename)
 
 final_df = pd.merge(combined_df, manual_df, on='yyyy_mm', how='inner')
