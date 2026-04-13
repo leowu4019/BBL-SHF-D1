@@ -7,6 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1lzqr2to8O3XvT-237zILemKoEXHoq2fr
 """
 
+print("Starting LEI Update....")
+
 !pip install fredapi
 
 import pandas as pd
